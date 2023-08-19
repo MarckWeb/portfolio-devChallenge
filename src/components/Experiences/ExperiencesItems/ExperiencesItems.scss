@@ -19,7 +19,8 @@
 	}
 
 	&-content {
-		width: 273px;
+		width: 100%;
+		max-width: 273px;
 
 		& p:nth-child(1) {
 			line-height: 30px;
