@@ -4,6 +4,7 @@
 .experiences {
 	@include sections;
 	margin-top: 44px;
+	border: 1px solid blue;
 	&__title {
 		@include subtitles;
 	}

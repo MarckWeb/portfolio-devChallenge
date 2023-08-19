@@ -1,11 +1,11 @@
 @import '../../../sass/variables';
 .experiences__items {
 	width: 100%;
-	width: 366px;
+	max-width: 366px;
 	display: flex;
 	justify-content: center;
 	align-items: start;
-	margin-top: 35px;
+	margin-top: 25px;
 
 	&-figure {
 		margin-top: 20px;
@@ -19,8 +19,7 @@
 	}
 
 	&-content {
-		width: 100%;
-		max-width: 273px;
+		width: 273px;
 
 		& p:nth-child(1) {
 			line-height: 30px;
@@ -31,8 +30,10 @@
 		}
 
 		& p:nth-child(2) {
-			margin-top: 25px;
+			margin-top: 10px;
 			color: $color-font-second;
+			width: 100%;
+			max-width: 230px;
 		}
 	}
 }
